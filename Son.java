@@ -4,6 +4,6 @@ public class Son extends Human{
         super(name, age, gender);
     }
     public String showInfoSon(){
-        return String.format(this.getName() + ", " + this.getAge() + " лет");
+        return String.format(this.getName() + ", " + this.getAge() + " года");
     }
 }
